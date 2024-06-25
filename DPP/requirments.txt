@@ -1,0 +1,23 @@
+Build requirements
+cmake (version 3.13+)
+
+A supported C++ compiler from the list below
+Supported compilers
+g++ (version 8 or higher)
+clang (version 6 or higher)
+AppleClang (12.0 or higher)
+Microsoft Visual Studio 2019 or 2022 (16.x/17.x)
+clang-cl (version 15 or higher)
+Other compilers may work (either newer versions of those listed above, or different compilers entirely) but have not been tested by us.
+
+External Dependencies (You must install these)
+OpenSSL (whichever -dev package comes with your OS)
+zlib (whichever -dev package comes with your OS)
+
+Optional Dependencies
+For voice support you require both of:
+libopus
+libsodium
+
+Included Dependencies (Packaged with the library)
+JSON for Modern C++ (json.nlohmann)
